@@ -1,0 +1,13 @@
+name: Salman Sami 
+
+on:
+  push:
+       branches : [ main ]
+
+       jobss:
+           demo:
+                runs-on: ubuntu-latest
+
+                steps:
+                -name : Greetings
+                run: echo " Hello from Apin"
